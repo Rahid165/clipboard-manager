@@ -12,5 +12,5 @@ To run the application:
 To package it into an installer .exe:
 
 ```
-'./mvnw dependency:copy-dependencies; jpackage --type exe --dest target --name "ClipboardManager" --app-version "1.0.0" --module-path "target/classes;target/dependency;${env:JAVA_HOME}/jmods" --module com.rahid.clipboardmanager/com.rahid.clipboardmanager.HelloApplication --win-shortcut --win-menu'
+./mvnw dependency:copy-dependencies; jpackage --type exe --dest target --name "ClipboardManager" --app-version "1.0.0" --module-path "target/classes;target/dependency;${env:JAVA_HOME}/jmods" --module com.rahid.clipboardmanager/com.rahid.clipboardmanager.HelloApplication --win-shortcut --win-menu
 ```
